@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #212427;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+.caixa {
+    border-radius: 5px;
+}
+
+.pai {
+    width: 40%; 
+    height: 350px; 
+    margin: auto;
+    background-color: antiquewhite;
+    border: solid 2px #212427;
+    display: flex;
+    position: relative;
+}
+
+.filho {
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    position: absolute;
+}
+
+.cor1 {
+    background-color: #ED145B;
+    top: 5%;
+    left: 5%;
+}
+
+.cor2 {
+    background-color: #63B1BC;
+    bottom: 5%;
+    right: 10%;
+}
+
+.cor3 {
+    background-color: #EFB661;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
